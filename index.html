@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clevision</title>
+
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow">
+        <div class="max-w-7xl mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+
+                <h1 class="text-2xl font-bold text-blue-600">
+                    Clevision
+                </h1>
+
+                <!-- Desktop Menu -->
+                <nav class="hidden md:flex gap-8">
+                    <a href="#" class="hover:text-blue-600">Home</a>
+                    <a href="#" class="hover:text-blue-600">About</a>
+                    <a href="#" class="hover:text-blue-600">Services</a>
+                    <a href="#" class="hover:text-blue-600">Contact</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button id="menuBtn" class="md:hidden text-3xl">
+                    ☰
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="hidden md:hidden mt-4 flex flex-col gap-3">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="max-w-7xl mx-auto px-6 py-16">
+        <div class="flex flex-col md:flex-row items-center gap-12">
+
+            <div class="md:w-1/2">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">
+                    Building the Future of Web
+                </h2>
+
+                <p class="text-gray-600 text-lg mb-6">
+                    We build modern and scalable web applications that
+                    help businesses grow and reach more customers.
+                    Fast, responsive and user-focused solutions.
+                </p>
+
+                <button class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg">
+                    Get Started
+                </button>
+            </div>
+
+            <img
+  src="./src/OIP (3).jpg"
+  alt="Hero"
+  class="rounded-xl shadow-lg w-full"
+/>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-10">
+        <div class="max-w-7xl mx-auto px-6">
+
+            <h3 class="text-xl font-bold">
+                Clevision Technologies
+            </h3>
+
+            <p class="mt-2">
+                Email: contact@clevision.com
+            </p>
+
+            <p>
+                Phone: +91 9876543210
+            </p>
+
+            <div class="flex gap-4 mt-4">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </div>
+
+            <p class="mt-6 border-t border-gray-700 pt-4">
+                © 2026 Clevision Technologies
+            </p>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
